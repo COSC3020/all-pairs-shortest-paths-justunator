@@ -26,3 +26,5 @@ test code from other exercises.
 
 What is the worst-case time complexity ($\Theta$) of the algorithm? Add your
 answer, including your reasoning, to this markdown file.
+
+The worst-case should be $\Theta(V^3)$ as my implementation has 3 for loops nested inside of each other each running for $V$ times. The rest of the code runs faster then $V^3$ time so they do not matter.
